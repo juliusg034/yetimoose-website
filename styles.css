@@ -1,0 +1,714 @@
+
+
+:root {
+    --main-text-color: #E0EBC0;
+    --main-bg-color: #142A21;
+}
+body {
+    background-color: #142A21;
+    color: var(--main-text-color, black);
+    font-family: 'Alegreya', sans-serif, Arial, Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin:0;
+    position: relative;
+    max-width: 100%;
+    width: 100vw;
+}
+
+
+nav {
+    display:flex;
+    position: relative;
+    max-width: 100%;
+    width: 100vw;
+    height: min(15vh, 160px);
+    background: linear-gradient(#96E07E ,#EBDA75);
+    color: var(--main-bg-color);
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.logo img {
+    height: 100px;
+    margin-left: 10px;
+}
+
+.icons img{
+    height: 80px;
+    margin: 10px;
+    color: var(--main-bg-color);
+    filter: invert(13%) sepia(43%) saturate(447%) hue-rotate(103deg) brightness(93%) contrast(96%);
+}
+
+.contact {
+    font-size: 1.10rem;
+}
+.contact p {
+    margin: 10px;
+    text-align:end;
+    margin-right: 15px;
+}
+.right-side {
+    display: flex;
+    align-items: center;
+}
+.right-side div {
+    margin: 0px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.title img {
+    height: 100px;
+   
+}
+
+.title.active img {
+    content: url('./images/watermark3.png')    
+}
+
+.kebab {
+    margin: 0;
+}
+
+.kebab img {
+    filter: invert(13%) sepia(43%) saturate(447%) hue-rotate(103deg) brightness(93%) contrast(96%);
+
+}
+
+.kebab.active img {
+    filter: invert(65%) sepia(7%) saturate(2845%) hue-rotate(318deg) brightness(86%) contrast(78%);
+}
+
+.dropbtn {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+
+.dropdown-content{
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    pointer-events: none;
+
+}
+
+.dropdown-content.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.dropdown-content ul {
+    list-style: none;
+    background-color: #C67B71;
+    padding: 30px;
+    border-radius: 0px 0px 0px 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.dropdown-content.active ul li {
+    border-bottom: 5px solid #e39e95;
+    border-radius: 0px 1px 1px 0px;
+
+}
+
+.dropdown-content.active ul li a:hover {
+    color: #E0EBC0;
+
+}
+
+.dropdown-content ul li a{
+    text-decoration:none;
+    color: var(--main-bg-color);
+    font-family: 'Spicy Rice';
+    font-size: 2rem;
+    color: var(--main-bg-color)
+
+}
+
+
+
+.squiggle {
+    margin: 40px 0px 40px 0px;
+}
+
+.squiggle img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+
+
+.collage img {
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 0px;
+    overflow-x:hidden;
+}
+
+.about {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1 {
+    font-family: 'Spicy Rice';
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.about p {
+    font-size: 1.5rem;
+    width: 80vw;
+    line-height: 35px;
+    
+}
+
+
+.button {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.button button:hover {
+    color:#E0EBC0;
+}
+.button button {
+    font-family: 'Spicy Rice';
+    background-color: #C67B71;
+    border-radius: 150px;
+    color: var(--main-bg-color);
+    font-size: 5rem;
+    padding: 25px 50px 25px 50px;
+    border: none;
+}
+
+.button button:hover {
+    cursor: pointer;
+}
+
+.button button:active {
+    box-shadow: 10px 10px var(--main-bg-color);
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+
+.credits {
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.footer-icons {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-icons img{
+    height: 80px;
+    margin-right: 30px;
+    
+}
+
+
+/* commission.html css */
+
+.commission-title {
+    font-family: 'Spicy Rice';
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#open-button {
+    font-family: 'Spicy Rice';
+    background-color: #C67B71;
+    border-radius: 150px;
+    color: var(--main-bg-color);
+    font-size: 5rem;
+    padding: 25px 50px 25px 50px;
+    border: none;
+}
+
+.commission-middle-section img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.commission-middle-section h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#open-button {
+    border-radius: 45px;
+    background: linear-gradient(#96E07E ,#EBDA75);
+    margin-bottom: 80px;
+}
+
+.prices {
+    background: linear-gradient(#96E07E ,#EBDA75);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.prices h2 {
+    font-family: 'Spicy Rice';
+    font-size: 4rem;
+    color: var(--main-bg-color)
+}
+
+.prices p {
+    color: var(--main-bg-color);
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 10px 0 10px;
+}
+
+.commission-contact-me {
+    padding-top: 40px;
+    text-align: center;
+    color: var(--main-text-color);
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 10px 0 10px;
+    
+}
+
+.commission-contact-me h1 {
+    margin-top: 40px;
+    font-family: 'Spicy Rice';
+    font-size: 5rem;
+    
+}
+
+.commission-contact-me form {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    color: var(--main-bg-color);
+}
+
+.form input {
+    background: rgba(224, 235, 192, 25%);
+    border-radius: 40px;
+    height: 100%;
+    font-size: 3rem;
+    text-indent: 20px;
+    color: var(--main-bg-color);
+    width: 100%;
+}
+
+.form textarea {
+    background: rgba(224, 235, 192, 25%);
+    border-radius: 40px;
+    resize: none;
+    height: 400px;
+    margin: 40px 0 20px 0;
+    font-size: 3rem;
+    padding-top: 15px;
+    text-indent: 20px;
+    color: var(--main-bg-color);
+}
+.name-section {
+    font-size: 4.5rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 0 0 20px 0;
+}
+
+.email-section {
+    font-size: 4.5rem;
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 20px 0 20px 0;
+}
+
+#contact-form-submit {
+    font-family: 'Spicy Rice';
+    font-size: 5rem;
+    margin-top: 20px;
+    border-radius: 150px;
+    color: var(--main-bg-color);
+    background-color: #C67B71;
+    
+}
+
+#contact-form-submit {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* The gallery styles */
+
+.construction {
+    display: flex;
+    font-size: 6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+
+}
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .footer-icons a:nth-child(5) {
+        display: none;
+    } 
+
+    .name-section {
+        font-size: 2.5rem;
+    }
+
+    .email-section {
+        font-size: 2.5rem;
+    }
+    
+    .form input {
+        background: rgba(224, 235, 192, 25%);
+        border-radius: 40px;
+        height: 100%;
+        font-size: 2.5rem;
+        text-indent: 20px;
+        color: var(--main-bg-color);
+        width: 100%;
+    }
+    
+    .form textarea {
+        background: rgba(224, 235, 192, 25%);
+        border-radius: 40px;
+        resize: none;
+        height: 400px;
+        margin: 40px 0 20px 0;
+        font-size: 2rem;
+        padding-top: 15px;
+        text-indent: 20px;
+        color: var(--main-bg-color);
+    }
+
+    #contact-form-submit {
+        font-size: 4rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 865px) {
+
+    .footer-icons a:nth-child(4) {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .button button {
+        font-size: 4rem;
+    }
+
+    .about {
+        margin-top: 20px;
+    }
+    .about h1 {
+        margin-bottom: 10px;
+    }
+
+
+    .form input {
+        background: rgba(224, 235, 192, 25%);
+        border-radius: 40px;
+        height: 100%;
+        font-size: 2rem;
+        text-indent: 20px;
+        color: var(--main-bg-color);
+        width: 100%;
+    }
+    
+    .form textarea {
+        background: rgba(224, 235, 192, 25%);
+        border-radius: 40px;
+        resize: none;
+        height: 400px;
+        margin: 40px 0 20px 0;
+        font-size: 1.5rem;
+        padding-top: 15px;
+        text-indent: 20px;
+        color: var(--main-bg-color);
+    }
+
+    #contact-form-submit {
+        font-size: 3rem;
+    }
+
+    .commission-contact-me form {
+        display: flex;
+        flex-direction: column;
+        max-width: 80vw;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .footer-icons a:nth-child(3) {
+        display: none;
+    }
+    .button button {
+        font-size: 3.5rem;
+    }
+
+    .button {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+
+    .name-section {
+        font-size: 2rem;
+    }
+
+    .email-section {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .button button {
+        font-size: 3rem;
+        padding: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+
+    }
+
+    .credits {
+        text-align: center;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .footer-icons {
+        margin: 0;
+    }
+
+    .footer-icons img {
+        margin: 10px;
+    }
+
+    .footer-icons a:nth-child(4) {
+        display: inline-block;
+    }
+
+    .footer-icons a:nth-child(3) {
+        display: inline-block;
+    }
+
+    footer {
+        justify-content: center;
+   }
+
+   .commission-title {
+    font-family: 'Spicy Rice';
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 80px;
+}
+
+    #open-button {
+        font-family: 'Spicy Rice';
+        background-color: #C67B71;
+        border-radius: 150px;
+        color: var(--main-bg-color);
+        font-size: 4rem;
+        padding: 25px 50px 25px 50px;
+        border: none;
+    }
+
+    .commission-contact-me h1 {
+        margin-top: 40px;
+        font-family: 'Spicy Rice';
+        font-size: 4rem;
+        
+    }
+
+    .form input {
+        background: rgba(224, 235, 192, 25%);
+        border-radius: 40px;
+        height: 100%;
+        font-size: 1.5rem;
+        text-indent: 20px;
+        color: var(--main-bg-color);
+        width: 100%;
+    }
+    
+    .form textarea {
+        background: rgba(224, 235, 192, 25%);
+        border-radius: 40px;
+        resize: none;
+        height: 400px;
+        margin: 40px 0 20px 0;
+        font-size: 1rem;
+        padding-top: 15px;
+        text-indent: 20px;
+        color: var(--main-bg-color);
+    }
+
+    #contact-form-submit {
+        font-size: 2.75rem;
+    }
+
+    .commission-contact-me form {
+        display: flex;
+        flex-direction: column;
+        max-width: 85vw;
+    }
+
+    .prices h2 {
+        font-family: 'Spicy Rice';
+        font-size: 3rem;
+        color: var(--main-bg-color)
+    }
+
+    .construction {
+        font-size: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .title {
+        display: none;
+    }
+    
+    .footer-icons img {
+        width: 65px;
+        height: auto;
+    }
+
+    .footer-icons a:nth-child(4) {
+        display: none;
+    }
+    
+    .button button {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    #contact-form-submit {
+        font-size: 2rem;
+    }
+
+    .commission-contact-me form {
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    .commission-title {
+        font-family: 'Spicy Rice';
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    #open-button {
+        font-family: 'Spicy Rice';
+        background-color: #C67B71;
+        border-radius: 150px;
+        color: var(--main-bg-color);
+        font-size: 3rem;
+        padding: 25px 50px 25px 50px;
+        border: none;
+    }
+
+
+}
+
+
