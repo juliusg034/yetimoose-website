@@ -9,7 +9,7 @@ This is a basic html, css, and javascript website for a freelancing artists. Fea
 
 
 ## Demo
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9HBeKW0oT60/0.jpg)](https://www.youtube.com/watch?v=9HBeKW0oT60)
 https://youtu.be/9HBeKW0oT60
 
 
