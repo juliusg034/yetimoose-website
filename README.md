@@ -14,4 +14,4 @@ This is a basic html, css, and javascript website for a freelancing artists. Fea
 
 ## Lessons Learned
 
-In this project I learned how to collaborate with a client. Working together on design and the expectation of the website was I very different experience than just making one for myself. Planning ahead and managing time was one of the most important lessons from this experience.
+In this project I learned how to collaborate with a client. Working together on design and the expectation of the website was a very different experience than just making one for myself. Planning ahead and managing time was one of the most important lessons from this experience.
